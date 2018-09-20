@@ -80,6 +80,40 @@ Optional props:
 />
 ```
 
+### Layout Component
+
+This is the main component for all e-mails that I use. It is pretty self-explanatory, you use it as a Layout for all your e-mails, than you dont have to create `<table>` all the time.
+
+```
+<Layout>
+  <tr>
+    ...
+  </tr>
+</Layout>
+```
+
+### Link component
+
+Required props:
+
+- href
+
+Optional props:
+
+- title
+- className
+
+Simply a Link component with `target="_blank"` already implemented so it will facilitate your job
+
+```
+<Link
+  href="http://github.com/guilhermeutzig/react-emails"
+  title="See it on Github!"
+>
+  See it on Github!
+</Link>
+```
+
 ### InnerTable Component
 
 Helper component when it is necessary to create a table inside another.
@@ -96,6 +130,8 @@ Helper component when it is necessary to create a table inside another.
   </td>
 </tr>
 ```
+
+All of these components are being used in the Example e-mail, already in this repository.
 
 # Watch on Browser
 

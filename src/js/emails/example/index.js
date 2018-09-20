@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from 'components/Layout';
 import Image from 'components/Image';
+import Link from 'components/Link';
 import InnerTable from 'components/InnerTable';
 
 const Example = props => (
@@ -28,6 +29,16 @@ const Example = props => (
             You can use several tds in here!
           </td>
         </InnerTable>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <Link
+          href="http://github.com/guilhermeutzig/react-emails"
+          title="See it on Github!"
+        >
+          See it on Github!
+        </Link>
       </td>
     </tr>
   </Layout>
