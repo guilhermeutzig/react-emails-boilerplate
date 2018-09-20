@@ -92,6 +92,13 @@ Optional props:
 />
 ```
 
+If you need to use a custom URL for your server to host the images on building to production, you can simply go to Image Component and change it!
+There is a line of code that I do this:
+
+`if (process.env.NODE_ENV == 'build') return`img/${src}`;`
+
+Simply change the path of `img/` to the URL that you want!
+
 ### Link component
 
 Required props:
