@@ -55,18 +55,6 @@ module.exports = () => ({
         test: /\.scss$/,
         use: process.env.NODE_ENV == 'development' ? devRules : prodRules,
         include: resolve(__dirname, 'src/styles')
-      },
-      {
-        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'fonts/'
-            }
-          }
-        ]
       }
     ]
   },
