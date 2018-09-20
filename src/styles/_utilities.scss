@@ -1,0 +1,58 @@
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-default {
+  width: auto;
+  max-width: none;
+}
+
+.va-top {
+  vertical-align: top;
+}
+
+.va-middle {
+  vertical-align: middle;
+}
+
+.m-auto {
+  display: block;
+  margin: 0 auto;
+}
+
+.grid {
+  width: 100%;
+  max-width: 600px !important;
+  width: 600px !important;
+  min-width: 600px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.t-bold {
+  font-weight: bold;
+}
+
+.t-uppercase {
+  text-transform: uppercase;
+}
+
+.t-underline {
+  text-decoration: underline;
+}
+
+.t-none {
+  text-decoration: none;
+}
+
+.f-arial {
+  font-family: Arial;
+}

@@ -1,0 +1,9 @@
+@import '_reset';
+@import '_utilities';
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+  max-width: 100%;
+  font-family: Arial;
+}

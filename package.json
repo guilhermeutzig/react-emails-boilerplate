@@ -1,0 +1,39 @@
+{
+  "name": "react-email",
+  "version": "1.0.0",
+  "description": "E-mails Boilerplate with React",
+  "author": "Guilherme Leonardo Utzig",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development phenomic start",
+    "staging": "NODE_ENV=staging phenomic build && node pre-build.js && node inlinecss.js",
+    "build": "NODE_ENV=build phenomic build && node pre-build.js && node inlinecss.js"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@phenomic/cli": "^1.0.0-beta.3",
+    "@phenomic/core": "^1.0.0-beta.3",
+    "@phenomic/preset-react-app": "^1.0.0-beta.3",
+    "babel-loader": "7.1.4",
+    "babel-polyfill": "6.26.0",
+    "css-loader": "0.28.11",
+    "file-loader": "^2.0.0",
+    "fs-extra": "^7.0.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.7.2",
+    "prettier": "^1.10.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0",
+    "react-hot-loader": "4.2.0",
+    "react-router": "^3.2.0",
+    "sass-loader": "^6.0.6",
+    "styliner": "^1.0.4"
+  },
+  "phenomic": {
+    "presets": [
+      "@phenomic/preset-react-app"
+    ]
+  }
+}
