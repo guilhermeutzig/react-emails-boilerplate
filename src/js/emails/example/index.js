@@ -32,10 +32,11 @@ const Example = props => (
       </td>
     </tr>
     <tr>
-      <td>
+      <td className="ta-center">
         <Link
           href="http://github.com/guilhermeutzig/react-emails"
           title="See it on Github!"
+          className="f-arial"
         >
           See it on Github!
         </Link>

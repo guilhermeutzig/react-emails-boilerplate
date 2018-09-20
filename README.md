@@ -49,6 +49,18 @@ All buils are generated on `dist/` directory.
 
 # Components
 
+### Layout Component
+
+This is the main component for all e-mails that I use. It is pretty self-explanatory, you use it as a Layout for all your e-mails, than you dont have to create `<table>` all the time.
+
+```
+<Layout>
+  <tr>
+    ...
+  </tr>
+</Layout>
+```
+
 ### Image Component
 
 Required props:
@@ -80,18 +92,6 @@ Optional props:
 />
 ```
 
-### Layout Component
-
-This is the main component for all e-mails that I use. It is pretty self-explanatory, you use it as a Layout for all your e-mails, than you dont have to create `<table>` all the time.
-
-```
-<Layout>
-  <tr>
-    ...
-  </tr>
-</Layout>
-```
-
 ### Link component
 
 Required props:
@@ -109,6 +109,7 @@ Simply a Link component with `target="_blank"` already implemented so it will fa
 <Link
   href="http://github.com/guilhermeutzig/react-emails"
   title="See it on Github!"
+  className="f-arial"
 >
   See it on Github!
 </Link>

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Link = props => (
   <a
     href={props.href}
-    className={props.className}
+    className={`t-none ${props.className}`}
     title={props.title}
     style={props.style}
     target="__blank"
