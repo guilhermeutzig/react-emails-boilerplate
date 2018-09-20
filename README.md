@@ -17,25 +17,25 @@ Project for developing and testing e-mails with React.
 
 - App.js
 
-### Installing
+# Installing
 
 ```sh
 $ npm install or yarn install
 ```
 
-#### Running the project
+### Running the project
 
 ```sh
 $ npm run dev or yarn dev
 ```
 
-#### Production build
+### Production build
 
 ```sh
 $ yarn build
 ```
 
-#### Staging build
+### Staging build
 
 ```sh
 $ yarn staging
@@ -47,9 +47,9 @@ After the build, go to `dist`, copy the HTML and paste it on Litmus.
 
 All buils are generated on `dist/` directory.
 
-### Components
+# Components
 
-#### Image Component
+### Image Component
 
 Required props:
 
@@ -80,7 +80,7 @@ Optional props:
 />
 ```
 
-#### InnerTable Component
+### InnerTable Component
 
 Helper component when it is necessary to create a table inside another.
 
@@ -97,7 +97,7 @@ Helper component when it is necessary to create a table inside another.
 </tr>
 ```
 
-### Watch on Browser
+# Watch on Browser
 
 The server runs on `http://localhost:3333/`.
 
@@ -109,3 +109,7 @@ When building, there are two scripts that are executed:
 
 - `pre-build.js`: Script used to "clean" the HTML that will be generated, removing script tags, unnecessary divs and changing `<link>` to styliner work.
 - `inlinecss.js`: Script used to transform SCSS to inline styles.
+
+# Do whatever you want!
+
+Since it is React and SCSS that we are dealing with, you can create whenever components and classes you want to help your development!
